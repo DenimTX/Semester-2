@@ -53,17 +53,6 @@ phoenix_s = Room("Phoenix (South)", None, None, None, None, "spawn_s", "phoenix_
 spawn_s = Room("Spawn (South)", None, None, None, None, None, "phoenix_s", None, None,
                'You see a spawn platform and a phoenix.')
 
-# zeus = Character("Zeus", "inventory", "Thunderbolt")
-# poseidon = Character("Poseidon", "inventory", "Trident")
-# hades = Character("Hades", "inventory", "Bident")
-#
-# god = input("Choose your god: Zeus, Poseidon, or Hades\n>_ ").lower()
-# if god == "zeus":
-#     print("-------------------------------------------------------------------------------------------------------"
-#           "-------------------------------------------------------------------")
-#     print(zeus.name)
-#     print("Weapon:", zeus.weapon)
-
 current_node = spawn_n
 directions = ['southeast', 'northwest', 'south', 'west', 'east', 'north', 'southwest', 'northeast']
 short_directions = ['se', 'nw', 's', 'w', 'e', 'n', 'sw', 'ne']
