@@ -24,8 +24,8 @@ phoenix_n = Room("Phoenix (North)", None, None, None, None,
 phoenix_tower_intersection_n = Room("Phoenix-Tower Intersection (North)", "lane_high_middle", None, None, None,
                                     "mana_buff_camp_n", None, None, "phoenix_n", 'You see a turtle, a phoenix, and '
                                                                                  'a tower')
-mana_buff_camp_n = Room("Mana Buff Camp (North)", "bull_demon_king_intersection_n", None, None, None, None,
-                        "phoenix_tower_intersection_n", None, None, 'You see two paths and a turtle')
+turtle_n = Room("Turtle Camp (North)", "bull_demon_king_intersection_n", None, None, None, None,
+                "phoenix_tower_intersection_n", None, None, 'You see two paths and a turtle')
 bull_demon_king_intersection_n = Room("Bull Demon King Intersection (North)", "bull_demon_king_intersection_s",
                                       "bull_demon_king", "lane_high_middle", "mana_buff_camp_n", None, None, None, None,
                                       'You see a turtle, a path, and a demon.')
@@ -36,15 +36,15 @@ lane_middle = Room("Lane Middle", "lane_low_middle", None, "damage_buff_camp", "
                    None, None, 'You see two paths and a tiger.')
 lane_low_middle = Room("Lane Low Middle", "phoenix_tower_intersection_s", "bull_demon_king_intersection_s", None,
                        "lane_middle", None, "damage_buff_camp", None, None, 'You see two paths, a tower, and a demon')
-damage_buff_camp = Room("Damage Buff Camp", None, "lane_middle", None, None, "lane_low_middle", None, None,
-                        "lane_high_middle", 'You see three paths and a tiger')
+tiger = Room("Tiger Camp", None, "lane_middle", None, None, "lane_low_middle", None, None,
+             "lane_high_middle", 'You see three paths and a tiger')
 bull_demon_king_intersection_s = Room("Bull Demon King Intersection (South)", "mana_buff_camp", "bull_demon_king",
                                       "lane_low_middle", "bull_demon_king_intersection_n", None, None, None, None,
                                       'You see two paths, a turtle, and a demon')
 bull_demon_king = Room("Bull Demon King", None, None, None, None, None, "bull_demon_king_intersection_n",
                        "bull_demon_king_intersection_s", None, 'You see two paths and a demon')
-mana_buff_camp_s = Room("Mana Buff Camp (South)", None, None, None, "bull_demon_king_intersection_s", None, None,
-                        "phoenix_tower_intersection_s", None, 'You see two paths and a turtle')
+turtle_s = Room("Turtle Camp (South)", None, None, None, "bull_demon_king_intersection_s", None, None,
+                "phoenix_tower_intersection_s", None, 'You see two paths and a turtle')
 phoenix_tower_intersection_s = Room("Phoenix-Tower Intersection (South)", None, None, None, "lane_low_middle",
                                     "phoenix_s", None, None, "mana_buff_camp_s",
                                     'You see a tower, a phoenix, and a turtle.')
